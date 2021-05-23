@@ -20,7 +20,7 @@ void loop() {
   if (buttonState == HIGH) {            //Checks if the pushbutton is pressed
     //If it is pressed, the buttonState is set as HIGH
     digitalWrite(ledPin, HIGH);         //turns LED on    
-    tone(buzzer, 500); // Triggers the buzzer to 200Hz frequency
+    tone(buzzer, 500); // Triggers the buzzer to 500Hz frequency
     Serial.println("LED is on "); // Displays the result on the serial monitor
   }
   else {
